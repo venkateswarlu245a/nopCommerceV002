@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="nopcommerce" duration-ms="44176" started-at="2019-03-22T15:18:59Z" finished-at="2019-03-22T15:19:44Z">
+    <groups>
+    </groups>
+    <test name="chromeTest" duration-ms="14992" started-at="2019-03-22T15:18:59Z" finished-at="2019-03-22T15:19:14Z">
+      <class name="com.nopcommerce.testCases.TC_LoginTest_001">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_LoginTest_001@5622fdf]" name="setup" is-config="true" duration-ms="4428" started-at="2019-03-22T15:19:00Z" finished-at="2019-03-22T15:19:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.nopcommerce.testCases.TC_LoginTest_001@5622fdf]" name="loginTest" duration-ms="9645" started-at="2019-03-22T15:19:04Z" finished-at="2019-03-22T15:19:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommerce.testCases.TC_LoginTest_001@5622fdf]" name="tearDown" is-config="true" duration-ms="684" started-at="2019-03-22T15:19:14Z" finished-at="2019-03-22T15:19:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.testCases.TC_LoginTest_001 -->
+    </test> <!-- chromeTest -->
+    <test name="firefoxtest" duration-ms="15361" started-at="2019-03-22T15:19:15Z" finished-at="2019-03-22T15:19:30Z">
+      <class name="com.nopcommerce.testCases.TC_LoginTest_001">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_LoginTest_001@7085bdee]" name="setup" is-config="true" duration-ms="4833" started-at="2019-03-22T15:19:15Z" finished-at="2019-03-22T15:19:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.nopcommerce.testCases.TC_LoginTest_001@7085bdee]" name="loginTest" duration-ms="8826" started-at="2019-03-22T15:19:20Z" finished-at="2019-03-22T15:19:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommerce.testCases.TC_LoginTest_001@7085bdee]" name="tearDown" is-config="true" duration-ms="1693" started-at="2019-03-22T15:19:28Z" finished-at="2019-03-22T15:19:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.testCases.TC_LoginTest_001 -->
+    </test> <!-- firefoxtest -->
+    <test name="ieTest" duration-ms="13348" started-at="2019-03-22T15:19:30Z" finished-at="2019-03-22T15:19:44Z">
+      <class name="com.nopcommerce.testCases.TC_LoginTest_001">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_LoginTest_001@31a5c39e]" name="setup" is-config="true" duration-ms="1487" started-at="2019-03-22T15:19:30Z" finished-at="2019-03-22T15:19:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.nopcommerce.testCases.TC_LoginTest_001@31a5c39e]" name="loginTest" duration-ms="11313" started-at="2019-03-22T15:19:32Z" finished-at="2019-03-22T15:19:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommerce.testCases.TC_LoginTest_001@31a5c39e]" name="tearDown" is-config="true" duration-ms="542" started-at="2019-03-22T15:19:43Z" finished-at="2019-03-22T15:19:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.testCases.TC_LoginTest_001 -->
+    </test> <!-- ieTest -->
+  </suite> <!-- nopcommerce -->
+</testng-results>
